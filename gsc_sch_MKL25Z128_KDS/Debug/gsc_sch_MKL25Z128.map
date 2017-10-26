@@ -1,0 +1,909 @@
+Archive member included because of file (symbol)
+
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+                              ./Project_Settings/Startup_Code/system_MKL25Z4.o (__aeabi_uidiv)
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_divsi3.o)
+                              ./Sources/mcl/CrystalClock.o (__aeabi_idiv)
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+                              c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+                              c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o (exit)
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+                              c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o) (_global_impure_ptr)
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+                              c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+                              c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+                              c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+rt_curOpMode        0x2               ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+ .data          0x00000000        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .group         0x00000000        0x8 ./Sources/sys/kinetis_sysinit.o
+ .group         0x00000000        0x8 ./Sources/sys/kinetis_sysinit.o
+ .group         0x00000000        0x8 ./Sources/sys/kinetis_sysinit.o
+ .group         0x00000000        0x8 ./Sources/sys/kinetis_sysinit.o
+ .group         0x00000000        0x8 ./Sources/sys/kinetis_sysinit.o
+ .group         0x00000000        0x8 ./Sources/sys/kinetis_sysinit.o
+ .group         0x00000000        0x8 ./Sources/sys/kinetis_sysinit.o
+ .text          0x00000000        0x0 ./Sources/sys/kinetis_sysinit.o
+ .data          0x00000000        0x0 ./Sources/sys/kinetis_sysinit.o
+ .bss           0x00000000        0x0 ./Sources/sys/kinetis_sysinit.o
+ .text.__init_hardware
+                0x00000000       0x2c ./Sources/sys/kinetis_sysinit.o
+ .vectortable   0x00000000       0xc0 ./Sources/sys/kinetis_sysinit.o
+ .group         0x00000000        0x8 ./Sources/mcl/ARM_SysTick.o
+ .group         0x00000000        0x8 ./Sources/mcl/ARM_SysTick.o
+ .group         0x00000000        0x8 ./Sources/mcl/ARM_SysTick.o
+ .group         0x00000000        0x8 ./Sources/mcl/ARM_SysTick.o
+ .group         0x00000000        0x8 ./Sources/mcl/ARM_SysTick.o
+ .group         0x00000000        0x8 ./Sources/mcl/ARM_SysTick.o
+ .group         0x00000000        0x8 ./Sources/mcl/ARM_SysTick.o
+ .group         0x00000000        0x8 ./Sources/mcl/ARM_SysTick.o
+ .text          0x00000000        0x0 ./Sources/mcl/ARM_SysTick.o
+ .data          0x00000000        0x0 ./Sources/mcl/ARM_SysTick.o
+ .bss           0x00000000        0x0 ./Sources/mcl/ARM_SysTick.o
+ .debug_macro   0x00000000      0x802 ./Sources/mcl/ARM_SysTick.o
+ .debug_macro   0x00000000       0x10 ./Sources/mcl/ARM_SysTick.o
+ .debug_macro   0x00000000       0x16 ./Sources/mcl/ARM_SysTick.o
+ .debug_macro   0x00000000       0x44 ./Sources/mcl/ARM_SysTick.o
+ .debug_macro   0x00000000      0x209 ./Sources/mcl/ARM_SysTick.o
+ .debug_macro   0x00000000     0x5f54 ./Sources/mcl/ARM_SysTick.o
+ .group         0x00000000        0x8 ./Sources/mcl/CrystalClock.o
+ .group         0x00000000        0x8 ./Sources/mcl/CrystalClock.o
+ .group         0x00000000        0x8 ./Sources/mcl/CrystalClock.o
+ .group         0x00000000        0x8 ./Sources/mcl/CrystalClock.o
+ .group         0x00000000        0x8 ./Sources/mcl/CrystalClock.o
+ .group         0x00000000        0x8 ./Sources/mcl/CrystalClock.o
+ .group         0x00000000        0x8 ./Sources/mcl/CrystalClock.o
+ .text          0x00000000        0x0 ./Sources/mcl/CrystalClock.o
+ .data          0x00000000        0x0 ./Sources/mcl/CrystalClock.o
+ .bss           0x00000000        0x0 ./Sources/mcl/CrystalClock.o
+ .debug_macro   0x00000000      0x802 ./Sources/mcl/CrystalClock.o
+ .debug_macro   0x00000000       0x16 ./Sources/mcl/CrystalClock.o
+ .debug_macro   0x00000000       0x10 ./Sources/mcl/CrystalClock.o
+ .debug_macro   0x00000000       0x16 ./Sources/mcl/CrystalClock.o
+ .debug_macro   0x00000000       0x44 ./Sources/mcl/CrystalClock.o
+ .debug_macro   0x00000000      0x209 ./Sources/mcl/CrystalClock.o
+ .debug_macro   0x00000000     0x5f54 ./Sources/mcl/CrystalClock.o
+ .group         0x00000000        0x8 ./Sources/mcl/interrupts.o
+ .group         0x00000000        0x8 ./Sources/mcl/interrupts.o
+ .group         0x00000000        0x8 ./Sources/mcl/interrupts.o
+ .group         0x00000000        0x8 ./Sources/mcl/interrupts.o
+ .group         0x00000000        0x8 ./Sources/mcl/interrupts.o
+ .group         0x00000000        0x8 ./Sources/mcl/interrupts.o
+ .group         0x00000000        0x8 ./Sources/mcl/interrupts.o
+ .text          0x00000000        0x0 ./Sources/mcl/interrupts.o
+ .data          0x00000000        0x0 ./Sources/mcl/interrupts.o
+ .bss           0x00000000        0x0 ./Sources/mcl/interrupts.o
+ .debug_info    0x00000000       0x6f ./Sources/mcl/interrupts.o
+ .debug_abbrev  0x00000000       0x29 ./Sources/mcl/interrupts.o
+ .debug_aranges
+                0x00000000       0x18 ./Sources/mcl/interrupts.o
+ .debug_macro   0x00000000       0x6d ./Sources/mcl/interrupts.o
+ .debug_macro   0x00000000      0x802 ./Sources/mcl/interrupts.o
+ .debug_macro   0x00000000       0x10 ./Sources/mcl/interrupts.o
+ .debug_macro   0x00000000       0x16 ./Sources/mcl/interrupts.o
+ .debug_macro   0x00000000       0x44 ./Sources/mcl/interrupts.o
+ .debug_macro   0x00000000      0x209 ./Sources/mcl/interrupts.o
+ .debug_macro   0x00000000     0x5f54 ./Sources/mcl/interrupts.o
+ .debug_macro   0x00000000       0x5f ./Sources/mcl/interrupts.o
+ .debug_line    0x00000000      0x1e0 ./Sources/mcl/interrupts.o
+ .debug_str     0x00000000    0x22de2 ./Sources/mcl/interrupts.o
+ .comment       0x00000000       0x71 ./Sources/mcl/interrupts.o
+ .ARM.attributes
+                0x00000000       0x32 ./Sources/mcl/interrupts.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .text          0x00000000        0x0 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .data          0x00000000        0x0 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .bss           0x00000000        0x0 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .debug_macro   0x00000000      0x802 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .debug_macro   0x00000000       0x10 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .debug_macro   0x00000000       0x16 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .debug_macro   0x00000000       0x44 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .debug_macro   0x00000000      0x209 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .debug_macro   0x00000000     0x5f54 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .debug_macro   0x00000000       0x5f ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .text          0x00000000        0x0 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .data          0x00000000        0x0 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .bss           0x00000000        0x0 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .debug_macro   0x00000000      0x802 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .debug_macro   0x00000000       0x10 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .debug_macro   0x00000000       0x16 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .debug_macro   0x00000000       0x44 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .debug_macro   0x00000000      0x209 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .debug_macro   0x00000000     0x5f54 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .debug_macro   0x00000000       0x5f ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .text          0x00000000        0x0 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .data          0x00000000        0x0 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .bss           0x00000000        0x0 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .debug_macro   0x00000000      0x802 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .debug_macro   0x00000000       0x10 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .debug_macro   0x00000000       0x16 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .debug_macro   0x00000000       0x44 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .debug_macro   0x00000000      0x209 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .debug_macro   0x00000000     0x5f54 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .debug_macro   0x00000000       0x5f ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .text          0x00000000        0x0 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .data          0x00000000        0x0 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .bss           0x00000000        0x0 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .debug_macro   0x00000000      0x802 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .debug_macro   0x00000000       0x10 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .debug_macro   0x00000000       0x16 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .debug_macro   0x00000000       0x44 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .debug_macro   0x00000000      0x209 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .debug_macro   0x00000000     0x5f54 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .debug_macro   0x00000000       0x5f ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .debug_macro   0x00000000       0x10 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .debug_macro   0x00000000       0x28 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .group         0x00000000        0x8 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .text          0x00000000        0x0 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .data          0x00000000        0x0 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .bss           0x00000000        0x0 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .debug_macro   0x00000000      0x802 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .debug_macro   0x00000000       0x10 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .debug_macro   0x00000000       0x16 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .debug_macro   0x00000000       0x44 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .debug_macro   0x00000000      0x209 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .debug_macro   0x00000000     0x5f54 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .debug_macro   0x00000000       0x5f ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .group         0x00000000        0x8 ./Sources/app/RGB_LEDs.o
+ .group         0x00000000        0x8 ./Sources/app/RGB_LEDs.o
+ .group         0x00000000        0x8 ./Sources/app/RGB_LEDs.o
+ .group         0x00000000        0x8 ./Sources/app/RGB_LEDs.o
+ .group         0x00000000        0x8 ./Sources/app/RGB_LEDs.o
+ .group         0x00000000        0x8 ./Sources/app/RGB_LEDs.o
+ .text          0x00000000        0x0 ./Sources/app/RGB_LEDs.o
+ .data          0x00000000        0x0 ./Sources/app/RGB_LEDs.o
+ .bss           0x00000000        0x0 ./Sources/app/RGB_LEDs.o
+ .text.app_rgb_led
+                0x00000000       0x78 ./Sources/app/RGB_LEDs.o
+ .text.delay_time
+                0x00000000       0x24 ./Sources/app/RGB_LEDs.o
+ .debug_macro   0x00000000      0x802 ./Sources/app/RGB_LEDs.o
+ .debug_macro   0x00000000       0x10 ./Sources/app/RGB_LEDs.o
+ .debug_macro   0x00000000       0x16 ./Sources/app/RGB_LEDs.o
+ .debug_macro   0x00000000       0x44 ./Sources/app/RGB_LEDs.o
+ .debug_macro   0x00000000      0x209 ./Sources/app/RGB_LEDs.o
+ .debug_macro   0x00000000     0x5f54 ./Sources/app/RGB_LEDs.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .text          0x00000000        0x0 ./Sources/main.o
+ .data          0x00000000        0x0 ./Sources/main.o
+ .bss           0x00000000        0x0 ./Sources/main.o
+ .debug_macro   0x00000000      0x802 ./Sources/main.o
+ .debug_macro   0x00000000       0x10 ./Sources/main.o
+ .debug_macro   0x00000000       0x16 ./Sources/main.o
+ .debug_macro   0x00000000       0x44 ./Sources/main.o
+ .debug_macro   0x00000000      0x209 ./Sources/main.o
+ .debug_macro   0x00000000     0x5f54 ./Sources/main.o
+ .debug_macro   0x00000000       0x16 ./Sources/main.o
+ .debug_macro   0x00000000       0x10 ./Sources/main.o
+ .debug_macro   0x00000000       0x5f ./Sources/main.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .data.SystemCoreClock
+                0x00000000        0x4 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .text.SystemCoreClockUpdate
+                0x00000000      0x23c ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000      0x802 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x16 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x44 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000      0x209 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .text          0x00000000       0x9c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000000       0x20 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .eh_frame      0x00000000        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x00000100         xr
+m_flash_config   0x00000400         0x00000010         xr
+m_text           0x00000410         0x0001fbf0         xr
+m_data           0x1ffff000         0x00004000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+LOAD ./Sources/sys/kinetis_sysinit.o
+LOAD ./Sources/mcl/ARM_SysTick.o
+LOAD ./Sources/mcl/CrystalClock.o
+LOAD ./Sources/mcl/interrupts.o
+LOAD ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+LOAD ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+LOAD ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+LOAD ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+LOAD ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+LOAD ./Sources/app/RGB_LEDs.o
+LOAD ./Sources/main.o
+LOAD ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+LOAD ./Project_Settings/Startup_Code/system_MKL25Z4.o
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libstdc++_s.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libm.a
+START GROUP
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libc_s.a
+END GROUP
+START GROUP
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libc_s.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libc_s.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a
+END GROUP
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+                0x00000400                HEAP_SIZE = DEFINED (__heap_size__)?__heap_size__:0x400
+                0x00000400                STACK_SIZE = DEFINED (__stack_size__)?__stack_size__:0x400
+
+.interrupts     0x00000000       0xc0
+                0x00000000                __VECTOR_TABLE = .
+                0x00000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+                0x00000000                __isr_vector
+                0x000000c0                . = ALIGN (0x4)
+
+.flash_config   0x00000400       0x10
+                0x00000400                . = ALIGN (0x4)
+ *(.FlashConfig)
+ .FlashConfig   0x00000400       0x10 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+                0x00000410                . = ALIGN (0x4)
+
+.text           0x00000410      0xd24
+                0x00000410                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000410       0x60 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .text          0x00000470       0x78 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+                0x00000470                _start
+                0x00000470                _mainCRTStartup
+ .text          0x000004e8       0x34 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+                0x000004e8                Reset_Handler
+                0x00000514                Reserved39_IRQHandler
+                0x00000514                DefaultISR
+                0x00000514                TPM2_IRQHandler
+                0x00000514                RTC_IRQHandler
+                0x00000514                LLWU_IRQHandler
+                0x00000514                TPM0_IRQHandler
+                0x00000514                Reserved20_IRQHandler
+                0x00000514                USB0_IRQHandler
+                0x00000514                Reserved45_IRQHandler
+                0x00000514                TPM1_IRQHandler
+                0x00000514                LVD_LVW_IRQHandler
+                0x00000514                FTFA_IRQHandler
+                0x00000514                LPTMR0_IRQHandler
+ .text          0x0000051c       0xc0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_divsi3.o)
+                0x0000051c                __divsi3
+                0x0000051c                __aeabi_idiv
+                0x000005c8                __aeabi_idivmod
+ .text          0x000005dc        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x000005dc                __aeabi_idiv0
+                0x000005dc                __aeabi_ldiv0
+ *(.text*)
+ .text.Default_Handler
+                0x000005e0        0xc ./Sources/sys/kinetis_sysinit.o
+                0x000005e0                RTC_Alarm_IRQHandler
+                0x000005e0                I2C0_IRQHandler
+                0x000005e0                HardFault_Handler
+                0x000005e0                PendSV_Handler
+                0x000005e0                NMI_Handler
+                0x000005e0                I2C1_IRQHandler
+                0x000005e0                UART1_IRQHandler
+                0x000005e0                DMA2_IRQHandler
+                0x000005e0                TSI0_IRQHandler
+                0x000005e0                UART0_IRQHandler
+                0x000005e0                ADC0_IRQHandler
+                0x000005e0                SPI1_IRQHandler
+                0x000005e0                PORTD_IRQHandler
+                0x000005e0                LPTimer_IRQHandler
+                0x000005e0                FTM1_IRQHandler
+                0x000005e0                RTC_Seconds_IRQHandler
+                0x000005e0                MCG_IRQHandler
+                0x000005e0                UART2_IRQHandler
+                0x000005e0                Default_Handler
+                0x000005e0                LLW_IRQHandler
+                0x000005e0                PIT_IRQHandler
+                0x000005e0                SVC_Handler
+                0x000005e0                USBOTG_IRQHandler
+                0x000005e0                DMA3_IRQHandler
+                0x000005e0                DMA0_IRQHandler
+                0x000005e0                DAC0_IRQHandler
+                0x000005e0                PMC_IRQHandler
+                0x000005e0                SPI0_IRQHandler
+                0x000005e0                FTM0_IRQHandler
+                0x000005e0                PORTA_IRQHandler
+                0x000005e0                MCM_IRQHandler
+                0x000005e0                FTFL_IRQHandler
+                0x000005e0                FTM2_IRQHandler
+                0x000005e0                CMP0_IRQHandler
+                0x000005e0                DMA1_IRQHandler
+ .text.InitSysTick
+                0x000005ec       0x1c ./Sources/mcl/ARM_SysTick.o
+                0x000005ec                InitSysTick
+ .text.InitClock
+                0x00000608       0x24 ./Sources/mcl/CrystalClock.o
+                0x00000608                InitClock
+ .text.pll_init
+                0x0000062c      0x538 ./Sources/mcl/CrystalClock.o
+                0x0000062c                pll_init
+ .text.periodic_tasks_exec_5tks
+                0x00000b64        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+                0x00000b64                periodic_tasks_exec_5tks
+ .text.periodic_tasks_exec_10tks
+                0x00000b6c        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+                0x00000b6c                periodic_tasks_exec_10tks
+ .text.periodic_tasks_exec_20tks
+                0x00000b74        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+                0x00000b74                periodic_tasks_exec_20tks
+ .text.periodic_tasks_exec_50tks
+                0x00000b7c        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+                0x00000b7c                periodic_tasks_exec_50tks
+ .text.periodic_tasks_exec_100tks
+                0x00000b84        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+                0x00000b84                periodic_tasks_exec_100tks
+ .text.periodic_tasks_exec_500tks
+                0x00000b8c        0xc ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+                0x00000b8c                periodic_tasks_exec_500tks
+ .text.periodic_tasks_exec_1Mtks
+                0x00000b98        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+                0x00000b98                periodic_tasks_exec_1Mtks
+ .text.periodic_tasks_init_MclDrvs
+                0x00000ba0        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+                0x00000ba0                periodic_tasks_init_MclDrvs
+ .text.periodic_tasks_init_SysDrvs
+                0x00000ba8        0xc ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+                0x00000ba8                periodic_tasks_init_SysDrvs
+ .text.periodic_tasks_init_task_5tks
+                0x00000bb4        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+                0x00000bb4                periodic_tasks_init_task_5tks
+ .text.periodic_tasks_init_task_10tks
+                0x00000bbc        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+                0x00000bbc                periodic_tasks_init_task_10tks
+ .text.periodic_tasks_init_task_20tks
+                0x00000bc4        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+                0x00000bc4                periodic_tasks_init_task_20tks
+ .text.periodic_tasks_init_task_50tks
+                0x00000bcc        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+                0x00000bcc                periodic_tasks_init_task_50tks
+ .text.periodic_tasks_init_task_100tks
+                0x00000bd4        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+                0x00000bd4                periodic_tasks_init_task_100tks
+ .text.periodic_tasks_init_task_500tks
+                0x00000bdc        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+                0x00000bdc                periodic_tasks_init_task_500tks
+ .text.periodic_tasks_init_task_1Mtks
+                0x00000be4        0x8 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+                0x00000be4                periodic_tasks_init_task_1Mtks
+ .text.gsc_sch_core_Init
+                0x00000bec       0x5c ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+                0x00000bec                gsc_sch_core_Init
+ .text.gsc_sch_core_exec
+                0x00000c48      0x110 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+                0x00000c48                gsc_sch_core_exec
+ .text.gsc_sch_core_tick_isr
+                0x00000d58       0x14 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+                0x00000d58                gsc_sch_core_tick_isr
+ .text.app_rgb_led_fsm
+                0x00000d6c       0xcc ./Sources/app/RGB_LEDs.o
+                0x00000d6c                app_rgb_led_fsm
+ .text.red_on   0x00000e38       0x14 ./Sources/app/RGB_LEDs.o
+                0x00000e38                red_on
+ .text.red_off  0x00000e4c       0x14 ./Sources/app/RGB_LEDs.o
+                0x00000e4c                red_off
+ .text.green_on
+                0x00000e60       0x14 ./Sources/app/RGB_LEDs.o
+                0x00000e60                green_on
+ .text.green_off
+                0x00000e74       0x14 ./Sources/app/RGB_LEDs.o
+                0x00000e74                green_off
+ .text.blue_on  0x00000e88       0x14 ./Sources/app/RGB_LEDs.o
+                0x00000e88                blue_on
+ .text.blue_off
+                0x00000e9c       0x14 ./Sources/app/RGB_LEDs.o
+                0x00000e9c                blue_off
+ .text.init_leds
+                0x00000eb0       0xb8 ./Sources/app/RGB_LEDs.o
+                0x00000eb0                init_leds
+ .text.main     0x00000f68       0x20 ./Sources/main.o
+                0x00000f68                main
+ .text.WatchDog_cfg
+                0x00000f88       0x1c ./Sources/main.o
+                0x00000f88                WatchDog_cfg
+ .text.SysTick_Handler
+                0x00000fa4       0x1c ./Sources/main.o
+                0x00000fa4                SysTick_Handler
+ .text.SystemInit
+                0x00000fc0       0x18 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+                0x00000fc0                SystemInit
+ .text.exit     0x00000fd8       0x2c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+                0x00000fd8                exit
+ .text.__libc_init_array
+                0x00001004       0x4c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+                0x00001004                __libc_init_array
+ .text.memset   0x00001050       0x10 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+                0x00001050                memset
+ .text._exit    0x00001060        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+                0x00001060                _exit
+ *(.rodata)
+ *(.rodata*)
+ .rodata.cps_mngTaskList
+                0x00001064       0x90 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+                0x00001064                cps_mngTaskList
+ .rodata.app_rgb_led_fsm
+                0x000010f4       0x20 ./Sources/app/RGB_LEDs.o
+ .rodata.str1.1
+                0x00001114        0x2 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ *fill*         0x00001116        0x2 
+ .rodata._global_impure_ptr
+                0x00001118        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+                0x00001118                _global_impure_ptr
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x0000111c        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ *(.init)
+ .init          0x0000111c        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+                0x0000111c                _init
+ .init          0x00001120        0x8 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+ *(.fini)
+ .fini          0x00001128        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+                0x00001128                _fini
+ .fini          0x0000112c        0x8 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+                0x00001134                . = ALIGN (0x4)
+
+.vfp11_veneer   0x00001134        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00001134        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00001134        0x0
+ .iplt          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x00001134        0x8
+                0x00001134                __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x00001134        0x8 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+                0x0000113c                __exidx_end = .
+
+.rel.dyn        0x0000113c        0x0
+ .rel.iplt      0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+
+.ctors          0x0000113c        0x0
+                0x0000113c                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x0000113c                __CTOR_END__ = .
+
+.dtors          0x0000113c        0x0
+                0x0000113c                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x0000113c                __DTOR_END__ = .
+
+.preinit_array  0x0000113c        0x0
+                0x0000113c                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x0000113c                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0000113c        0x4
+                0x0000113c                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+ .init_array    0x0000113c        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+                0x00001140                PROVIDE (__init_array_end, .)
+
+.fini_array     0x00001140        0x4
+                0x00001140                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x00001140        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+                0x00001144                PROVIDE (__fini_array_end, .)
+                0x00001144                __etext = .
+                0x00001144                __DATA_ROM = .
+
+.mtb            0x1ffff000        0x0
+                0x1ffff000                . = ALIGN (0x8)
+                0x1ffff000                _mtb_start = .
+ *(.mtb_buf)
+                0x1ffff000                . = ALIGN (0x8)
+                0x1ffff000                _mtb_end = .
+
+.data           0x1ffff000       0x64 load address 0x00001144
+                0x1ffff000                . = ALIGN (0x4)
+                0x1ffff000                __DATA_RAM = .
+                0x1ffff000                __data_start__ = .
+ *(.data)
+ *(.data*)
+ .data.impure_data
+                0x1ffff000       0x60 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ *(.jcr*)
+ .jcr           0x1ffff060        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .jcr           0x1ffff060        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+                0x1ffff064                . = ALIGN (0x4)
+                0x1ffff064                __data_end__ = .
+                0x000011a8                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+
+.igot.plt       0x1ffff064        0x0 load address 0x000011a8
+ .igot.plt      0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+
+.bss            0x1ffff064       0x28 load address 0x000011a8
+                0x1ffff064                . = ALIGN (0x4)
+                0x1ffff064                __START_BSS = .
+                0x1ffff064                __bss_start__ = .
+ *(.bss)
+ .bss           0x1ffff064       0x1c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ *(.bss*)
+ .bss.re_sch_mngExecflag
+                0x1ffff080        0x1 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+                0x1ffff080                re_sch_mngExecflag
+ .bss.rgb_state.4535
+                0x1ffff081        0x1 ./Sources/app/RGB_LEDs.o
+ *fill*         0x1ffff082        0x2 
+ .bss.sys_tick_counter
+                0x1ffff084        0x4 ./Sources/main.o
+                0x1ffff084                sys_tick_counter
+ *(COMMON)
+ COMMON         0x1ffff088        0x2 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+                0x1ffff088                rt_curOpMode
+                0x1ffff08c                . = ALIGN (0x4)
+ *fill*         0x1ffff08a        0x2 
+                0x1ffff08c                __bss_end__ = .
+                0x1ffff08c                __END_BSS = .
+
+.heap           0x1ffff08c      0x404 load address 0x000011d0
+                0x1ffff090                . = ALIGN (0x8)
+ *fill*         0x1ffff08c        0x4 
+                0x1ffff090                __end__ = .
+                0x1ffff090                PROVIDE (end, .)
+                0x1ffff090                __HeapBase = .
+                0x1ffff490                . = (. + HEAP_SIZE)
+ *fill*         0x1ffff090      0x400 
+                0x1ffff490                __HeapLimit = .
+
+.stack          0x1ffff490      0x400 load address 0x000015d4
+                0x1ffff490                . = ALIGN (0x8)
+                0x1ffff890                . = (. + STACK_SIZE)
+ *fill*         0x1ffff490      0x400 
+                0x20003000                __StackTop = (ORIGIN (m_data) + 0x4000)
+                0x20002c00                __StackLimit = (__StackTop - STACK_SIZE)
+                0x20003000                PROVIDE (__stack, __StackTop)
+
+.ARM.attributes
+                0x00000000       0x28
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x32 ./Sources/sys/kinetis_sysinit.o
+ .ARM.attributes
+                0x00000097       0x32 ./Sources/mcl/ARM_SysTick.o
+ .ARM.attributes
+                0x000000c9       0x32 ./Sources/mcl/CrystalClock.o
+ .ARM.attributes
+                0x000000fb       0x32 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .ARM.attributes
+                0x0000012d       0x32 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .ARM.attributes
+                0x0000015f       0x32 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .ARM.attributes
+                0x00000191       0x32 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .ARM.attributes
+                0x000001c3       0x32 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .ARM.attributes
+                0x000001f5       0x32 ./Sources/app/RGB_LEDs.o
+ .ARM.attributes
+                0x00000227       0x32 ./Sources/main.o
+ .ARM.attributes
+                0x00000259       0x1b ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .ARM.attributes
+                0x00000274       0x32 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .ARM.attributes
+                0x000002a6       0x1e c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000002c4       0x1e c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000002e2       0x2c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000030e       0x2c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000033a       0x2c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000366       0x2c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000392       0x2c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x000003be       0x2c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .ARM.attributes
+                0x000003ea       0x1e c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region m_data overflowed with stack and heap)
+OUTPUT(gsc_sch_MKL25Z128.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x197c
+ .debug_info    0x00000000      0x40d ./Sources/sys/kinetis_sysinit.o
+ .debug_info    0x0000040d       0xf7 ./Sources/mcl/ARM_SysTick.o
+ .debug_info    0x00000504      0x261 ./Sources/mcl/CrystalClock.o
+ .debug_info    0x00000765       0xee ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .debug_info    0x00000853      0x110 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .debug_info    0x00000963      0x227 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .debug_info    0x00000b8a      0x162 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .debug_info    0x00000cec       0xb9 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .debug_info    0x00000da5      0x46b ./Sources/app/RGB_LEDs.o
+ .debug_info    0x00001210      0x2de ./Sources/main.o
+ .debug_info    0x000014ee       0xa1 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_info    0x0000158f      0x3ed ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_abbrev   0x00000000      0x8bd
+ .debug_abbrev  0x00000000       0xfe ./Sources/sys/kinetis_sysinit.o
+ .debug_abbrev  0x000000fe       0x9a ./Sources/mcl/ARM_SysTick.o
+ .debug_abbrev  0x00000198       0xf5 ./Sources/mcl/CrystalClock.o
+ .debug_abbrev  0x0000028d       0x5d ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .debug_abbrev  0x000002ea       0x5d ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .debug_abbrev  0x00000347       0xe0 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .debug_abbrev  0x00000427       0xa2 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .debug_abbrev  0x000004c9       0x79 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .debug_abbrev  0x00000542      0x164 ./Sources/app/RGB_LEDs.o
+ .debug_abbrev  0x000006a6       0xfa ./Sources/main.o
+ .debug_abbrev  0x000007a0       0x14 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_abbrev  0x000007b4      0x109 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_aranges  0x00000000      0x260
+ .debug_aranges
+                0x00000000       0x28 ./Sources/sys/kinetis_sysinit.o
+ .debug_aranges
+                0x00000028       0x20 ./Sources/mcl/ARM_SysTick.o
+ .debug_aranges
+                0x00000048       0x28 ./Sources/mcl/CrystalClock.o
+ .debug_aranges
+                0x00000070       0x50 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .debug_aranges
+                0x000000c0       0x60 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .debug_aranges
+                0x00000120       0x28 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .debug_aranges
+                0x00000148       0x18 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .debug_aranges
+                0x00000160       0x20 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .debug_aranges
+                0x00000180       0x68 ./Sources/app/RGB_LEDs.o
+ .debug_aranges
+                0x000001e8       0x30 ./Sources/main.o
+ .debug_aranges
+                0x00000218       0x20 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_aranges
+                0x00000238       0x28 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_ranges   0x00000000      0x188
+ .debug_ranges  0x00000000       0x18 ./Sources/sys/kinetis_sysinit.o
+ .debug_ranges  0x00000018       0x10 ./Sources/mcl/ARM_SysTick.o
+ .debug_ranges  0x00000028       0x18 ./Sources/mcl/CrystalClock.o
+ .debug_ranges  0x00000040       0x40 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .debug_ranges  0x00000080       0x50 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .debug_ranges  0x000000d0       0x18 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .debug_ranges  0x000000e8       0x10 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .debug_ranges  0x000000f8       0x58 ./Sources/app/RGB_LEDs.o
+ .debug_ranges  0x00000150       0x20 ./Sources/main.o
+ .debug_ranges  0x00000170       0x18 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_macro    0x00000000     0xf739
+ .debug_macro   0x00000000       0x5d ./Sources/sys/kinetis_sysinit.o
+ .debug_macro   0x0000005d      0x802 ./Sources/sys/kinetis_sysinit.o
+ .debug_macro   0x0000085f       0x10 ./Sources/sys/kinetis_sysinit.o
+ .debug_macro   0x0000086f       0x10 ./Sources/sys/kinetis_sysinit.o
+ .debug_macro   0x0000087f       0x16 ./Sources/sys/kinetis_sysinit.o
+ .debug_macro   0x00000895       0x44 ./Sources/sys/kinetis_sysinit.o
+ .debug_macro   0x000008d9      0x209 ./Sources/sys/kinetis_sysinit.o
+ .debug_macro   0x00000ae2     0x5f54 ./Sources/sys/kinetis_sysinit.o
+ .debug_macro   0x00006a36       0x66 ./Sources/mcl/ARM_SysTick.o
+ .debug_macro   0x00006a9c       0x10 ./Sources/mcl/ARM_SysTick.o
+ .debug_macro   0x00006aac       0x16 ./Sources/mcl/ARM_SysTick.o
+ .debug_macro   0x00006ac2       0xe1 ./Sources/mcl/CrystalClock.o
+ .debug_macro   0x00006ba3       0x81 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .debug_macro   0x00006c24       0x81 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .debug_macro   0x00006ca5       0x85 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .debug_macro   0x00006d2a       0x10 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .debug_macro   0x00006d3a       0x28 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .debug_macro   0x00006d62       0x8f ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .debug_macro   0x00006df1       0x76 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .debug_macro   0x00006e67       0x16 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .debug_macro   0x00006e7d       0xc0 ./Sources/app/RGB_LEDs.o
+ .debug_macro   0x00006f3d       0x87 ./Sources/main.o
+ .debug_macro   0x00006fc4       0x7e ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00007042       0x4c ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x0000708e       0x3a ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x000070c8       0x1f ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x000070e7      0x250 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00007337       0x63 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x0000739a     0x839f ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_line     0x00000000     0x1c1d
+ .debug_line    0x00000000      0x1bb ./Sources/sys/kinetis_sysinit.o
+ .debug_line    0x000001bb      0x1f6 ./Sources/mcl/ARM_SysTick.o
+ .debug_line    0x000003b1      0x339 ./Sources/mcl/CrystalClock.o
+ .debug_line    0x000006ea      0x2e7 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .debug_line    0x000009d1      0x309 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .debug_line    0x00000cda      0x28d ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .debug_line    0x00000f67      0x289 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .debug_line    0x000011f0      0x23b ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .debug_line    0x0000142b      0x2c7 ./Sources/app/RGB_LEDs.o
+ .debug_line    0x000016f2      0x270 ./Sources/main.o
+ .debug_line    0x00001962       0x7b ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_line    0x000019dd      0x240 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_str      0x00000000    0x3d6d4
+ .debug_str     0x00000000    0x22af6 ./Sources/sys/kinetis_sysinit.o
+                              0x22ef8 (size before relaxing)
+ .debug_str     0x00022af6       0xfe ./Sources/mcl/ARM_SysTick.o
+                              0x22dd2 (size before relaxing)
+ .debug_str     0x00022bf4      0x187 ./Sources/mcl/CrystalClock.o
+                              0x22ef6 (size before relaxing)
+ .debug_str     0x00022d7b      0x1ee ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+                              0x22ef4 (size before relaxing)
+ .debug_str     0x00022f69      0x167 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+                              0x22f4f (size before relaxing)
+ .debug_str     0x000230d0      0x30d ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+                              0x230cf (size before relaxing)
+ .debug_str     0x000233dd       0x39 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+                              0x2303f (size before relaxing)
+ .debug_str     0x00023416       0x54 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+                              0x22ea2 (size before relaxing)
+ .debug_str     0x0002346a      0x2d2 ./Sources/app/RGB_LEDs.o
+                              0x230da (size before relaxing)
+ .debug_str     0x0002373c       0x5a ./Sources/main.o
+                              0x22f90 (size before relaxing)
+ .debug_str     0x00023796    0x19f3e ./Project_Settings/Startup_Code/system_MKL25Z4.o
+                              0x31d29 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./Sources/sys/kinetis_sysinit.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./Sources/mcl/ARM_SysTick.o
+ .comment       0x00000000       0x71 ./Sources/mcl/CrystalClock.o
+ .comment       0x00000000       0x71 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .comment       0x00000000       0x71 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .comment       0x00000000       0x71 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .comment       0x00000000       0x71 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o
+ .comment       0x00000000       0x71 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .comment       0x00000000       0x71 ./Sources/app/RGB_LEDs.o
+ .comment       0x00000000       0x71 ./Sources/main.o
+ .comment       0x00000000       0x71 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_frame    0x00000000      0x5b0
+ .debug_frame   0x00000000       0x48 ./Sources/sys/kinetis_sysinit.o
+ .debug_frame   0x00000048       0x2c ./Sources/mcl/ARM_SysTick.o
+ .debug_frame   0x00000074       0x50 ./Sources/mcl/CrystalClock.o
+ .debug_frame   0x000000c4       0xd4 ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o
+ .debug_frame   0x00000198      0x10c ./Sources/gsc_scheduler/periodic_tasks/periodic_tasks_init.o
+ .debug_frame   0x000002a4       0x50 ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o
+ .debug_frame   0x000002f4       0x2c ./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o
+ .debug_frame   0x00000320      0x12c ./Sources/app/RGB_LEDs.o
+ .debug_frame   0x0000044c       0x64 ./Sources/main.o
+ .debug_frame   0x000004b0       0x4c ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_frame   0x000004fc       0x20 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_divsi3.o)
+ .debug_frame   0x0000051c       0x28 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+ .debug_frame   0x00000544       0x2c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+ .debug_frame   0x00000570       0x20 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+ .debug_frame   0x00000590       0x20 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
